@@ -8,8 +8,9 @@
             TreeSort tree = new TreeSort();
             // creating an array of random
             int[] array = {16, 18, 1, 10, 12};
-            // 
+            // inserting values in the tree
             tree.treeInsert(array);
+            // starting point
             tree.inorderRecursive(tree.node);
         }
     }
