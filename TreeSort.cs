@@ -47,6 +47,7 @@ namespace tree_sort
             return node;
         }
 
+        // this method uses pile to recursively walk the tree
         public void inorderRecursive(Node node)
         {
             if (node != null)
